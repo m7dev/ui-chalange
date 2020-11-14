@@ -1,0 +1,150 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    }
+
+body {
+  background: linear-gradient(to top left, #245979 20%, #5D9CAD 60%, #245979 80%) fixed;
+  padding: calc(50vh - 225px) calc(50vw - 350px);
+  font-family: sans-serif;
+}
+
+main {
+  width: 700px;
+  height: 450px;
+  /* margin: 42px; */
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.7);
+  border-radius: 12px;
+  background-color: rgb(255, 255, 255);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+section {
+  /* position: absolute; */
+  top: 0px;
+}
+
+.menu {
+  position: relative;
+  height: 100px;
+  width: 100%;
+  background-color: #e2f0f1;
+  padding: 25px;
+  border-radius: 12px 12px 0 0;
+  display: flex;
+  /* flex-wrap: wrap; */
+  flex-flow: row wrap;
+  justify-content: flex-end;
+}
+
+.styleButtons {
+  width: 40%;
+  height: 50px;
+}
+
+.button {
+  margin: 0px 0px;
+  color: rgb(37, 125, 163);
+  font-size: 30px;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  border: solid 1px #C6D5DC;
+  border-radius: 4px;
+}
+
+.button_active {
+  background-color: rgb(153, 221, 170);
+  color: white;
+}
+
+.button_bold {
+  position: absolute;
+  left: 20px;
+  font-weight: bold;
+}
+
+.button_italic {
+  position: absolute;
+  left: 80px;
+  font-style: italic;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.share {
+  background: url("share.svg") no-repeat;
+  position: relative;
+  width: 150px;
+  text-align: right;
+}
+
+.textbox {
+  padding: 20px;
+  line-height: 30px;
+  font-size: 1em;
+  height: 300px;
+  text-align: left;
+  color: #626A75;
+}
+
+textarea {
+  width:100%;
+  height:230px;
+  resize: none;
+  background-color:rgb(255, 255, 255);
+  color: #626A75;
+  border: 1px dotted rgb(175, 175, 175);
+  font: 22px/30px sans-serif;
+}
+
+input {
+  width: 80%;
+  font-size: 2em;
+  font-weight: 300;
+  margin: 20px;
+  color: #626A75;
+  border: 0px;
+  border-bottom: 1px dotted rgb(175, 175, 175);
+}
+
+@media screen and (max-width:768px) {
+  main {
+    width: 100%;
+  }
+
+  body {
+    padding: 42px;
+  }
+}
+
+/* @media screen and (max-width:550px) {
+  main {
+    width: 100%;
+  }
+} */
+
+@media screen and (max-width:400px) {
+  .menu {
+    height: 225px;
+  }
+  textarea {
+    height:155px;
+  }
+  .share {
+    margin-top: 25px;
+  }
+}
