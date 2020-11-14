@@ -1,0 +1,81 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    }
+
+html {
+    font-family: 'IM Fell Great Primer SC', serif;
+  }
+
+body {
+    background-color: rgb(200, 200, 200);
+    background-size: cover;
+    font-weight: bold;
+  }
+
+h1 {
+    text-transform: uppercase;
+    font-size: 24px;
+    letter-spacing: 5px;
+    padding-bottom: 30px;
+}
+
+span {
+    margin-bottom: 10px;
+}
+
+.content {
+    box-shadow: 10px;
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    margin: 0 0 0 -261px;
+    height: 1068px;
+    width: 522px;
+    background-color: white;
+    box-shadow: 3px 7px 8px rgba(0,0,0,0.3);
+}
+
+.header {
+    height: 82px;
+    background-color: black;
+}
+
+.number {
+    padding-top: 100px;
+    padding-bottom: 75px;
+    margin-left: 280px;
+    line-height: 1;
+    font-size: 1em;
+}
+
+.receipt {
+    margin-left: 45px;
+    margin-right: 45px;
+}
+
+.main {
+    margin-top: 24px;
+    height: 86px;
+    background: linear-gradient(-45deg,rgba(0, 0, 0, 0) 42%,rgba(197, 197, 197, 1) 50%,rgba(0, 0, 0, 0) 58%);
+     background-size: 0.5em 0.5em;
+    background-color: #fff;
+}
+
+#from , #for, #sets {
+    padding-top: 50px;
+    border: none;
+    border-bottom: 2px dotted rgb(0, 0, 0);
+}
+
+.received {
+    margin-top: 50px;
+}
+
+.date {
+    margin-top: 16px;
+}

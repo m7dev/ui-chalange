@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Prompt:300,400,500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="content">
+        
+        <div class="close">
+        </div>
+
+        <img src="airbnb.png" alt="logo">
+        <div class="time">
+            <p id="date"></p>
+            <p id="time"></p>
+        </div>
+
+        <div class="data">
+            <div class="city">
+                <h1>New York</h1>
+            </div>
+            <div class="text">
+                <span>23 nights</span>
+            </div>
+            <div class="air">
+            </div>
+            <table>
+                <tr>
+                    <td class="row1">1 Adult</td>
+                    <td class="row2">$1101.40</td>
+                </tr>
+                <tr>
+                    <td class="row1">Taxes & Fees</td>
+                    <td class="row2">$96.70</td>
+                </tr>
+            </table>
+            <div class="line">
+            </div>
+            <table>
+                <tr>
+                    <td class="row3">Total</td>
+                    <td class="row4">$1198.10</td>
+                </tr>
+                <tr>
+                    <td class="row3"></td>
+                    <td class="row5">+1000 points</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="cutted">
+        </div>
+
+    </div>
+
+    <div class="button">Pay</div>
+
+    <script>
+        n =  new Date();
+        y = n.getFullYear();
+        m = n.getMonth();
+        d = n.getDate();
+        hours = n.getHours();
+        minutes = n.getMinutes();
+        document.getElementById("date").innerHTML = m + "-" + d + "-" + y;
+        document.getElementById("time").innerHTML = hours + ":" + minutes;
+    </script>
+</body>
+</html>

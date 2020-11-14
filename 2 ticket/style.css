@@ -1,0 +1,142 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    }
+
+html {
+    font-family: 'Prompt', sans-serif;
+  }
+
+body {
+    background-color: rgb(220, 233, 240);
+    background-size: cover;
+    font-weight: bold;
+  }
+
+.content {
+  position: relative;
+  width: 330px;
+  height: 397px;
+  padding: 16px;
+  left: 30px;
+  top: 100px;
+  background-color: white;
+  border-radius: 4px 4px 0 0;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.cutted {
+  width: 330px;
+  position: absolute;
+  left: 12px;
+  bottom: -6px;
+  border-bottom: 12px dotted rgb(220, 233, 240);
+}
+
+img {
+  height: 32px;
+}
+
+.time {
+  position: absolute;
+  top: 16px;
+  right: 16px;  
+}
+
+.time p {
+  text-align: right;
+  font-weight: 500;
+}
+
+.city {
+  color: black;
+  margin: 44px 0 0;
+  /* font-size: 17px; */
+}
+
+span, .time, .row1, .row2 {
+  color: #B5B6C0;
+  font-weight: 200;
+  /* font-size: 10px; */
+}
+
+.text span {
+  font-weight: 500;
+  margin: 10px 0 0px;
+}
+
+.air {
+  margin: 40px;
+}
+
+table {
+  width: 100%;
+}
+
+td {
+  height: 20px;
+}
+
+.row2 {
+  color: black;
+  text-align: right;
+  font-weight: 300;
+}
+
+.line {
+  border-bottom: 2px dotted #B5B6C0;
+  margin: 10px 0 10px;
+}
+
+.row3, {
+  color: black;
+  font-weight: 500;
+}
+
+.row4 {
+  font-weight: 400;
+  text-align: right;
+  font-size: 1.5em;
+}
+
+.row5 {
+  font-weight: 400;
+  color: #76D7F1;
+  text-align: right;
+  font-size: 0.9em;
+}
+
+.close:after{
+  position: absolute;
+  top: -50px;
+  right: 4px;  
+  font-size: 1.5em;
+  font-weight: 300;
+  color: white;
+  content: "X"; /* This will render the 'X' */
+}
+
+.button {
+  position: absolute;
+  left: 115px;
+  bottom: 45px;
+  width: 150px;
+  height: 62px;
+	background-color:#72d7f0;
+	border-radius: 10px;
+	display: inline-block;
+	cursor: pointer;
+	color:#ffffff;
+	font-family: Arial;
+	font-size: 20px;
+  font-weight: bold;
+  padding:21px 55px;
+  text-transform: uppercase;
+}
+.button:hover {
+	background-color:#63bfd6;
+}
